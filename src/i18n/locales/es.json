@@ -1,0 +1,169 @@
+{
+  "header": {
+    "title": "MotoGear",
+    "signIn": "Iniciar Sesión",
+    "signOut": "Cerrar Sesión",
+    "userPanel": "Mi Cuenta"
+  },
+  "cart": {
+    "addToCart": "Agregar al Carrito",
+    "outOfStock": "Sin Existencias",
+    "title": "Carrito de Compras",
+    "empty": "Tu carrito está vacío",
+    "total": "Total",
+    "checkout": "Finalizar Compra"
+  },
+  "auth": {
+    "createAccount": "Crear Cuenta",
+    "signIn": "Iniciar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "passwordsDoNotMatch": "Las contraseñas no coinciden",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta? Inicia sesión",
+    "dontHaveAccount": "¿No tienes una cuenta? Regístrate",
+    "verifyEmail": "Por favor, revisa tu correo para el enlace de verificación.",
+    "emailVerified": "¡Correo verificado exitosamente! Ahora puedes iniciar sesión.",
+    "emailExists": "Ya existe una cuenta con este correo electrónico.",
+    "verifyBeforeSignIn": "Por favor, verifica tu correo antes de iniciar sesión.",
+    "continueWithGoogle": "Continuar con Google",
+    "orContinueWith": "o continuar con",
+    "loading": "Cargando..."
+  },
+  "finder": {
+    "placeholder": "Buscar productos..."
+  },
+  "categories": {
+    "title": "Categorías",
+    "all": "Todos los Productos",
+    "description": {
+      "lighting": "Soluciones de iluminación para motocicletas",
+      "audio": "Sistemas de audio y comunicación para motocicletas",
+      "protection": "Equipamiento y accesorios de protección",
+      "motorcycle_accessories": "Accesorios esenciales para motocicletas",
+      "tires": "Neumáticos de alto rendimiento",
+      "lubricants": "Aceites y lubricantes de alta calidad"
+    },
+    "lighting": "Iluminación",
+    "audio": "Audio",
+    "protection": "Protección",
+    "motorcycle_accessories": "Accesorios",
+    "tires": "Neumáticos",
+    "lubricants": "Lubricantes"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Equipamiento y accesorios premium para el motociclista moderno",
+      "shopNow": "Comprar Ahora"
+    },
+    "features": {
+      "quality": {
+        "title": "Calidad Premium",
+        "description": "Solo el mejor equipamiento de fabricantes confiables"
+      },
+      "safety": {
+        "title": "Seguridad Primero",
+        "description": "Todos los productos cumplen o superan los estándares de seguridad"
+      },
+      "delivery": {
+        "title": "Envío Rápido",
+        "description": "Envíos rápidos y confiables a todo el mundo"
+      }
+    }
+  },
+  "userPanel": {
+    "title": "Mi Cuenta",
+    "tabs": {
+      "profile": "Perfil",
+      "addresses": "Direcciones de Envío",
+      "payments": "Métodos de Pago",
+      "orders": "Pedidos"
+    },
+    "profile": {
+      "title": "Información del Perfil",
+      "description": "Actualiza tu información de cuenta y datos de facturación",
+      "email": "Correo Electrónico",
+      "taxId": "NIF/CIF",
+      "companyName": "Nombre de la Empresa / Nombre",
+      "phone": "Teléfono",
+      "phonePlaceholder": "612345678",
+      "billingAddress": "Dirección de Facturación",
+      "paymentMode": "Modo de Pago",
+      "paymentModes": {
+        "prepaid": "Prepago",
+        "postpaid": "Pago Posterior"
+      },
+      "paymentModeDescriptions": {
+        "prepaid": "Pagar al realizar el pedido",
+        "postpaid": "Pagar después de la entrega (requiere aprobación)"
+      }
+    },
+    "addresses": {
+      "title": "Direcciones de Envío",
+      "addNew": "Añadir Nueva Dirección",
+      "name": "Nombre para la Dirección",
+      "line1": "Dirección Línea 1",
+      "line2": "Dirección Línea 2 (Opcional)",
+      "city": "Ciudad",
+      "state": "Provincia",
+      "postalCode": "Código Postal",
+      "country": "País",
+      "setDefault": "Establecer como dirección predeterminada",
+      "shipping": "Dirección de Envío",
+      "default": "Predeterminada",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "noAddresses": "Aún no hay direcciones de envío añadidas"
+    },
+    "payments": {
+      "title": "Métodos de Pago",
+      "addNew": "Añadir Nuevo Método de Pago",
+      "default": "Predeterminado",
+      "expires": "Caduca",
+      "types": {
+        "card": "Tarjeta de Crédito",
+        "paypal": "PayPal",
+        "bank_transfer": "Transferencia Bancaria"
+      }
+    },
+    "orders": {
+      "title": "Historial de Pedidos",
+      "orderNumber": "Pedido #",
+      "date": "Fecha",
+      "status": "Estado",
+      "total": "Total",
+      "tracking": "Seguimiento",
+      "noOrders": "Aún no hay pedidos",
+      "statuses": {
+        "pending": "Pendiente",
+        "processing": "En Proceso",
+        "shipped": "Enviado",
+        "delivered": "Entregado",
+        "cancelled": "Cancelado"
+      }
+    },
+    "common": {
+      "save": "Guardar Cambios",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "default": "Establecer como Predeterminado",
+      "cancel": "Cancelar"
+    },
+    "errors": {
+      "loading": "Error al cargar los datos del usuario",
+      "updateProfile": "Error al actualizar el perfil",
+      "updateAddress": "Error al actualizar la dirección",
+      "deleteAddress": "Error al eliminar la dirección",
+      "updatePayment": "Error al actualizar el método de pago"
+    }
+  },
+  "checkout": {
+    "addShippingAddress": "Añadir Dirección de Envío",
+    "addShippingAddressDescription": "Por favor, añade una dirección de envío para continuar con la compra",
+    "addBillingAddress": "Añadir Dirección de Facturación",
+    "addBillingAddressDescription": "Por favor, añade una dirección de facturación para continuar con la compra",
+    "processing": "Procesando...",
+    "success": "¡Pedido realizado con éxito!",
+    "error": "Error al procesar el pedido"
+  }
+}

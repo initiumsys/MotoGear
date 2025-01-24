@@ -1,0 +1,169 @@
+{
+  "header": {
+    "title": "MotoGear",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "userPanel": "My Account"
+  },
+  "cart": {
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout"
+  },
+  "auth": {
+    "createAccount": "Create Account",
+    "signIn": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "alreadyHaveAccount": "Already have an account? Sign in",
+    "dontHaveAccount": "Don't have an account? Sign up",
+    "verifyEmail": "Please check your email for a verification link.",
+    "emailVerified": "Email verified successfully! You can now sign in.",
+    "emailExists": "An account with this email already exists.",
+    "verifyBeforeSignIn": "Please verify your email before signing in.",
+    "continueWithGoogle": "Continue with Google",
+    "orContinueWith": "or continue with",
+    "loading": "Loading..."
+  },
+  "finder": {
+    "placeholder": "Search products..."
+  },
+  "categories": {
+    "title": "Categories",
+    "all": "All Products",
+    "description": {
+      "lighting": "Motorcycle lighting solutions",
+      "audio": "Motorcycle audio and communication systems",
+      "protection": "Protective gear and accessories",
+      "motorcycle_accessories": "Essential accessories and add-ons for motorcycles",
+      "tires": "High-performance motorcycle tires",
+      "lubricants": "High-quality oils and lubricants"
+    },
+    "lighting": "Lighting",
+    "audio": "Audio",
+    "protection": "Protection",
+    "motorcycle_accessories": "Accessories",
+    "tires": "Tires",
+    "lubricants": "Lubricants"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Premium motorcycle gear and accessories for the modern rider",
+      "shopNow": "Shop Now"
+    },
+    "features": {
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Only the best gear from trusted manufacturers"
+      },
+      "safety": {
+        "title": "Safety First",
+        "description": "All products meet or exceed safety standards"
+      },
+      "delivery": {
+        "title": "Fast Delivery",
+        "description": "Quick and reliable shipping worldwide"
+      }
+    }
+  },
+  "userPanel": {
+    "title": "My Account",
+    "tabs": {
+      "profile": "Profile",
+      "addresses": "Shipping Addresses",
+      "payments": "Payment Methods",
+      "orders": "Orders"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "description": "Update your account information and billing details",
+      "email": "Email",
+      "taxId": "Tax ID (NIF/CIF)",
+      "companyName": "Company Name / Name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "612345678",
+      "billingAddress": "Billing Address",
+      "paymentMode": "Payment Mode",
+      "paymentModes": {
+        "prepaid": "Prepaid",
+        "postpaid": "Postpaid"
+      },
+      "paymentModeDescriptions": {
+        "prepaid": "Pay at checkout",
+        "postpaid": "Pay after delivery (requires approval)"
+      }
+    },
+    "addresses": {
+      "title": "Shipping Addresses",
+      "addNew": "Add New Address",
+      "name": "Address Name",
+      "line1": "Address Line 1",
+      "line2": "Address Line 2 (Optional)",
+      "city": "City",
+      "state": "State/Province",
+      "postalCode": "Postal Code",
+      "country": "Country",
+      "setDefault": "Set as default address",
+      "shipping": "Shipping Address",
+      "default": "Default",
+      "edit": "Edit",
+      "delete": "Delete",
+      "noAddresses": "No shipping addresses added yet"
+    },
+    "payments": {
+      "title": "Payment Methods",
+      "addNew": "Add New Payment Method",
+      "default": "Default",
+      "expires": "Expires",
+      "types": {
+        "card": "Credit Card",
+        "paypal": "PayPal",
+        "bank_transfer": "Bank Transfer"
+      }
+    },
+    "orders": {
+      "title": "Order History",
+      "orderNumber": "Order #",
+      "date": "Date",
+      "status": "Status",
+      "total": "Total",
+      "tracking": "Tracking",
+      "noOrders": "No orders yet",
+      "statuses": {
+        "pending": "Pending",
+        "processing": "Processing",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
+      }
+    },
+    "common": {
+      "save": "Save Changes",
+      "edit": "Edit",
+      "delete": "Delete",
+      "default": "Set as Default",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loading": "Error loading user data",
+      "updateProfile": "Error updating profile",
+      "updateAddress": "Error updating address",
+      "deleteAddress": "Error deleting address",
+      "updatePayment": "Error updating payment method"
+    }
+  },
+  "checkout": {
+    "addShippingAddress": "Add Shipping Address",
+    "addShippingAddressDescription": "Please add a shipping address to continue with checkout",
+    "addBillingAddress": "Add Billing Address",
+    "addBillingAddressDescription": "Please add a billing address to continue with checkout",
+    "processing": "Processing...",
+    "success": "Order placed successfully!",
+    "error": "Error processing order"
+  }
+}

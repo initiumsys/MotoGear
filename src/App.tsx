@@ -173,12 +173,14 @@ function App() {
       return;
     }
 
-    try {
-      await api.addToCart(user.id, productId);
-      await loadCartItems(user.id);
-      await loadCartCount(user.id);
-    } catch (error) {
-      console.error('Error adding to cart:', error);
+    if (user) {
+      try {
+        await api.addToCart(user.id, productId);
+        await loadCartItems(user.id);
+        await loadCartCount(user.id);
+      } catch (error) {
+        console.error('Error adding to cart:', error);
+      }
     }
   };
 
